@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e11364;
+    padding: 30px 50px 20px 50px;
+    
+    }
+
+.title-header{
+    background-color: #BC105C;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    padding: 20px 0;
+    width: 100%;;
+    font-weight: bold;
+}
+
+.cards-containers{
+    background-color: #BC105C;
+    padding: 15px 10px;
+    margin: 20px 0 5px 0;
+    
+}
+
+.card-body{
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 0 20px 0 ;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+    
+}
+
+.title-container{
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.card-title{
+    color: #9c0137;
+    text-align: right;
+    padding: 10px 5px 5px 0;
+    font-size: 30px;
+}
+
+.tm-size{
+    font-size: 16px;
+}
+
+.card-img{
+
+    border-top: dotted #9c0137 2px;
+    padding: 10px;
+}
+
+img{
+    
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-main__text{
+    text-align: justify;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.card-buy__container{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.card-buy{
+    padding: 10px;
+    background-color: #2C8F20;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .3s ease-in;
+}
+
+.card-buy:hover{
+    background-color: #9c0137;
+    color: white;
+}
+
+.footer-container{
+    background-color: rgb(255, 255, 255,0.5) ;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px  0px;
+    font-weight: 300;
+    font-size: 24px;    
+}
