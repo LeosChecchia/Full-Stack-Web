@@ -109,14 +109,15 @@ section{
     color: white;
     font-size: 25px;
     padding-top: 50px;
+    flex: 1 1 0%;
     
 }
 
 
-.card-body {
+/* .card-body {
     padding: 8px 16px 16px;
-    flex: 1;
-}
+    
+} */
 
 
 /* .card-body__description {
