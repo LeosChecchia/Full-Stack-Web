@@ -11,6 +11,7 @@ body {
 section{
     
     margin: 50px;
+    
 }
 
 .title-header{
@@ -31,6 +32,22 @@ section{
     flex-wrap: wrap;
     background-image: url(/assets/image/background.png);
     background-size: cover;
+    border-radius: 30px;
+   
+}
+
+.cards-containers img{
+    display: flex;
+    border-radius: 150px;
+    transition: .5s ease-in
+    
+    
+}
+
+.cards-containers img:hover{
+    border-radius: 0;
+    transition: .5s ease-in
+    
 }
 
 .title-container{
@@ -55,6 +72,7 @@ section{
     box-shadow: 5px 5px 10px rgb(211, 211, 211);
     transition: .3s ease;
     
+    
 }
 .card-title{
     color: white;
@@ -73,11 +91,11 @@ section{
     
 }
 
-.card-header__image {
-    height: 170px;
+.card-img {
+    
     width: 100%;
     object-fit: cover;
-    transition: .3s ease-in-out;
+    
 } 
 
 .card-body:hover  {
@@ -111,8 +129,9 @@ section{
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     font-size: 50px;
+    
 }
 
 .card-buy{
@@ -127,7 +146,7 @@ section{
 .card-buy:hover{
     background-color: #01789c;
     color: white;
-    
+    transition: .5s ease-in
     
 }
 
